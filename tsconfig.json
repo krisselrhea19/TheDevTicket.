@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",                // Module system
+      "target": "es6",                     // Target ES version
+      "esModuleInterop": true,             // Enable compatibility with ES modules
+      "skipLibCheck": true,                // Skip library check for faster compilation
+      "moduleResolution": "node",          // Use Node-style module resolution
+      "resolveJsonModule": true,           // Allow importing JSON files as modules
+      "strict": true,                      // Enable strict type checking
+      "baseUrl": ".",                      // Base directory for module resolution
+      "paths": {
+        "*": ["node_modules/*"]            // Resolve modules from node_modules
+      }
+    },
+    "include": [
+      "src/**/*"                           // Include all files in the 'src' directory
+    ]
+    
+  }
+  
